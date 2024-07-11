@@ -941,7 +941,7 @@
   }
 }
 
-@media only screen and (min-width:360px) and (max-width:479px) {
+@media only screen and (min-width:360px) and (max-width:480px) {
   #spotlight {
     background-image: url(../images/Mobile_Homepage_banner.jpg);
     height: 650px;
