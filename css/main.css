@@ -1,0 +1,1032 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#spotlight {
+  background-image: url(../images/vicks-banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  font-family: "Sora";
+  top: 0px;
+}
+
+#spotlight .header .navbar {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  padding: 3px;
+}
+
+#spotlight .header .navbar .menu-links {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+#spotlight .header .navbar ul li a {
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+.bgcolor {
+  background-color: #ffffff !important;
+  color: #000080 !important;
+}
+
+.bgcolor * {
+  color: #000080 !important;
+}
+
+.search {
+  color: #fff;
+}
+
+.menu-icon {
+  display: none;
+}
+
+#spotlight .header .learnmore .lm {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  padding: 15px;
+  position: absolute;
+  width: 180px;
+  bottom: 15%;
+  left: 70%;
+}
+
+#spotlight .header .learnmore {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#spotlight .header .learnmore .lm:hover {
+  background-color: #fff;
+  color: #09357A;
+  border-color: #07078b;
+}
+
+/* ALL TIME FAVOURITES */
+
+#alltimefavorites {
+  padding: 30px;
+  margin-top: 80px;
+}
+
+#alltimefavorites .favtop {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+#alltimefavorites .favtop h2 {
+  font-family: "Sora";
+  color: #09357A;
+  font-size: 22px;
+}
+
+#alltimefavorites .favtop h2 span {
+  font-family: "Sora";
+}
+
+#alltimefavorites .favtop a {
+  color: #09357A;
+  font-size: 17px;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+#alltimefavorites .favbottom {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+
+}
+
+#alltimefavorites .favbottom .favbox {
+  background-image: url(../images/fav-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 400px;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+#alltimefavorites .favbottom .favbox .favimg .vbox {
+  width: 310px;
+  height: 300px;
+}
+
+#alltimefavorites .favbottom .favbox:hover {
+  transform: scale(1.01);
+  margin: 0rem 0.5rem 0rem 0.5rem;
+  transition: 350ms;
+}
+
+#alltimefavorites .favbottom .favbox .favitem {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+#alltimefavorites .favbottom .favbox .favitem h3 {
+  font-family: "Sora";
+  color: #09357A;
+}
+
+#alltimefavorites .favbottom .favbox .favitem span {
+  font-family: "Sora";
+  color: #072351;
+  font-weight: 200;
+}
+
+#alltimefavorites .favbottom .favbox .favitem {
+  color: #0065b9;
+  margin: 2px;
+}
+
+#alltimefavorites .favbottom .favbox .favitem p {
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+#alltimefavorites .favbottom .favbox .favitem .rating {
+  font-size: 12px;
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+
+#alltimefavorites .favbottom .favbox .favitem a {
+  text-decoration: none;
+  color: #09357A;
+  font-weight: 400;
+  border: 2px solid #09357A;
+  width: 70px;
+  border-radius: 12px;
+  padding-left: 16px;
+  margin-top: 2px;
+}
+
+#alltimefavorites .favbottom .favbox .favitem a:hover {
+  background-color: #07078b;
+  color: #fff;
+}
+
+.arrow-prev,
+.arrow-next {
+  display: none;
+}
+
+/* VICKS LEGACY */
+
+#vickslegacy {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#vickslegacy .vl {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#vickslegacy .vl .left .history {
+  width: 450px;
+  height: 450px;
+}
+
+#vickslegacy .vl .right {
+  width: fit-content;
+  justify-content: center;
+  position: relative;
+  width: 500px;
+}
+
+#vickslegacy .vl .right h4 {
+  font-family: "Sora";
+  font-size: 44px;
+  color: #09357A;
+  position: relative;
+  width: 350px;
+}
+
+#vickslegacy .vl .right h4 span {
+  font-family: "Sora";
+  font-size: 44px;
+  font-weight: 300;
+}
+
+#vickslegacy .vl .right .vl-text {
+  font-family: "Sora";
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  line-height: 26px;
+  width: 80%;
+}
+
+#vickslegacy .vl .right .learn {
+  text-decoration: none;
+  font-family: "Sora";
+  color: #09357A;
+  border: 1px solid #09357A;
+  padding: 7px 25px;
+  border-radius: 25px;
+  margin-top: 80px;
+}
+
+#vickslegacy .vl .right .learn:hover {
+  background-color: #09357A;
+  color: #fff;
+  border-color: #fff;
+}
+
+/* FOOTER */
+
+#footer {
+  background-color: #09357A;
+  color: #ffffff;
+  padding: 50px 0;
+}
+
+.container {
+  margin: 10px 65px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.footer-menu {
+  width: 200px;
+}
+
+.footer-menu h5 .plus {
+  display: none;
+}
+
+.footer-menu h5 {
+  font-family: "Sora";
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-menu h5 span {
+  display: none;
+}
+
+.footer-menu ul {
+  font-family: "Sora";
+  list-style: none;
+  font-weight: 100;
+}
+
+.footer-menu ul li {
+  margin-bottom: 10px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-media a {
+  margin: 0 10px;
+}
+
+.social-media .sm {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-bottom {
+  font-family: "Sora";
+  font-weight: 100;
+  margin: 10px 65px;
+  padding-top: 20px;
+}
+
+.notice {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.notice p {
+  padding-right: 25px;
+}
+
+.notice .p-choice {
+  padding-right: 25px;
+  margin-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notice .third-party {
+  display: flex;
+  margin-right: 15px;
+}
+
+.notice .third-party .bl {
+  padding-left: 5px;
+}
+
+.footer-info {
+  text-align: center;
+  border-top: 1px solid #0558c46b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+.footer-info .country {
+  display: flex;
+  align-items: center;
+}
+
+.footer-info .country .nf {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.footer-info .country span {
+  font-weight: bold;
+}
+
+.footer-info .country i {
+  padding-left: 10px;
+}
+
+.footer-info ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.footer-info ul li {
+  font-family: "Sora";
+  font-size: 14px;
+  font-weight: 100;
+  margin: 0 10px;
+}
+
+/*////////////////////////////////////////////////////// Responsive Design////////////////////////////////////////////////////////////// */
+
+@media only screen and (max-width:979px) {
+  .menu-icon {
+    color: #fff;
+    display: block;
+    order: 0;
+    cursor: pointer;
+  }
+
+  .logo {
+    order: 1;
+  }
+
+  .search {
+    order: 2;
+  } 
+
+  #spotlight .header .navbar .menu-header .menu-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #spotlight .header .navbar.active {
+    background: #ffffff;
+  }
+
+  #spotlight .header .navbar.active * {
+    color: #000080 !important;
+  }
+
+  .bgcolor {
+    background-color: #ffffff;
+  }
+
+  .bgcolor * {
+    color: #09357A;
+  }
+
+  .menu-header.active {
+    height: 100vh;
+  }
+
+  .menu-header ul li .option {
+    color: #000080;
+    display: block;
+    text-align: left;
+    justify-content: center;
+    padding: 10px;
+    transition: 0.5s
+  }
+
+  .menu-icon {
+    order: 0;
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu-header {
+    z-index: 0;
+    height: 0;
+    position: fixed;
+    top: 52px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    background-color: #fff;
+    transition: 0.3s ease;
+    overflow: hidden;
+  }
+
+  .menu-header ul li .option {
+    color: #000080 !important;
+    margin-bottom: 12px;
+    display: block;
+    text-align: left;
+  }
+
+  .menu-header ul li .option::after {
+    content: "+";
+    font-size: 1.5rem;
+    position: relative;
+    float: right;
+    cursor: pointer;
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 980px) {
+  #alltimefavorites {
+    position: relative;
+    height: 450px;
+    overflow: hidden;
+    align-items: center;
+  }
+
+  .favbottom {
+    display: flex;
+    transition: transform 0.5s ease;
+    height: 100%;
+  }
+
+  .favbox {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+  }
+
+  #alltimefavorites .favbottom .favbox:hover {
+    transform: scale(1);
+    margin-right: 0.8rem;
+    margin-left: 0.8rem;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000033;
+  }
+
+  .arrow-prev,
+  .arrow-next {
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(250, 249, 249, 0.644);
+    font-size: 30px;
+    border-radius: 50%;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 0;
+    color: #030303;
+  }
+
+  .arrow-prev {
+    left: 10px;
+  }
+
+  .arrow-next {
+    right: 10px;
+  }
+
+}
+
+@media(max-width: 980px) {
+  .container {
+    display: block;
+  }
+
+  .footer-menu {
+    display: block;
+    width: 80vw;
+  }
+
+  .footer-menu h5 {
+    font-weight: 400;
+  }
+
+  .footer-menu h5 .plus {
+    display: block;
+    float: right;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  .footer-submenu {
+    display: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+  }
+
+  .footer-submenu.show {
+    display: block;
+  }
+
+  .social-media {
+    justify-content: space-around;
+  }
+
+  .footer-bottom {
+    margin: 10px 20px;
+  }
+
+  .notice .your,
+  .notice .certifications {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .country-privacy {
+    flex-direction: column;
+  }
+
+  .country-privacy ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .country-privacy ul li {
+    margin: 10px 15px;
+  }
+}
+
+@media only screen and (min-width:1280px) and (max-width:1440px) {
+  #spotlight {
+    height: 620px;
+  }
+
+  #spotlight .header .learnmore .lm {
+    bottom: 30%;
+    left: 65%;
+    width: 190px;
+  }
+}
+
+@media only screen and (min-width:1080px) and (max-width:1280px) {
+  #spotlight {
+    height: 550px;
+  }
+
+  #spotlight .header .learnmore .lm {
+    bottom: 39%;
+    left: 58%;
+    padding: 10px;
+    width: 180px;
+  }
+
+  #alltimefavorites {
+    margin-top: 70px;
+  }
+
+  #alltimefavorites .favbottom .favbox {
+    width: 200px;
+  }
+
+  #alltimefavorites .favbottom .favbox .favimg .vbox {
+    width: 200px;
+    height: 240px;
+  }
+}
+
+@media only screen and (min-width:980px) and (max-width:1079px) {
+  #spotlight {
+    height: 430px;
+  }
+
+  #alltimefavorites {
+    margin-top: 10px;
+  }
+
+  #spotlight .header .learnmore .lm {
+    bottom: 54%;
+    left: 58%;
+    padding: 7px;
+    width: 120px;
+    font-size: 12px;
+  }
+
+  #alltimefavorites .favbottom .favbox {
+    width: 200px;
+  }
+
+  #alltimefavorites .favbottom .favbox .favimg .vbox {
+    width: 180px;
+    height: 200px;
+  }
+
+  #vickslegacy .vl .right h4 {
+    font-size: 40px;
+  }
+
+  #vickslegacy .vl .right h4 span {
+    font-size: 40px;
+  }
+
+  #vickslegacy .vl .right .vl-text {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width:768px) and (max-width:980px) {
+  #spotlight {
+    height: 400px;
+  }
+
+  #spotlight .header .learnmore .lm {
+    bottom: 58%;
+    left: 58%;
+    padding: 7px;
+    width: 120px;
+    font-size: 11px;
+  }
+
+  #alltimefavorites {
+    margin-top: 70px;
+  }
+
+  #alltimefavorites .favbottom .favbox {
+    width: 150px;
+    height: 300px;
+  }
+
+  #alltimefavorites .favbottom .favbox .favimg .vbox {
+    width: 160px;
+    height: 150px;
+  }
+
+  #vickslegacy {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  #vickslegacy .vl {
+    width: 100%;
+    height: 100%;
+  }
+
+  #vickslegacy .vl .left .history {
+    width: 300px;
+    height: 300px;
+  }
+
+  #vickslegacy .vl .right {
+    width: 48%
+  }
+
+  .footer-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+}
+
+@media only screen and (min-width:640px) and (max-width:769px) {
+  #spotlight {
+    background-image: url(../images/Mobile_Homepage_banner.jpg);
+    height: 1000px;
+  }
+
+  #spotlight .header .learnmore .lm {
+    position: relative;
+    top: 1010px;
+    left: 41%;
+    padding: 10px;
+    width: 150px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #09357A;
+    border-color: #fff;
+    cursor: pointer;
+  }
+
+  #spotlight .header .learnmore .lm:hover {
+    color: #09357A;
+    background-color: #fff;
+    border-color: #09357A;
+  }
+
+  #alltimefavorites {
+    overflow: hidden;
+    margin-bottom: 80px;
+  }
+
+  #alltimefavorites .favbottom {
+    gap: 15px;
+  }
+
+  #vickslegacy {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  #vickslegacy .vl {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #vickslegacy .vl .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #vickslegacy .vl .right .learn {
+    margin-top: 0;
+  }
+
+  .footer-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (min-width:540px) and (max-width:639px) {
+  #spotlight {
+    background-image: url(../images/Mobile_Homepage_banner.jpg);
+    height: 800px;
+  }
+
+  #spotlight .header .learnmore .lm {
+    position: relative;
+    top: 830px;
+    left: 41%;
+    padding: 10px;
+    width: 150px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #09357A;
+    border-color: #fff;
+    cursor: pointer;
+  }
+
+  #alltimefavorites {
+    overflow: hidden;
+    margin-bottom: 80px;
+  }
+
+  #alltimefavorites .favbottom {
+    gap: 15px;
+  }
+
+  #vickslegacy .vl {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #vickslegacy .vl .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  #vickslegacy .vl .right .learn {
+    margin-top: 0;
+  }
+
+  .footer-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer-info ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 9px;
+  }
+
+  .notice p {
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:480px) and (max-width:539px) {
+  #spotlight {
+    background-image: url(../images/Mobile_Homepage_banner.jpg);
+    height: 700px;
+  }
+
+  #spotlight .header .learnmore .lm {
+    position: relative;
+    top: 750px;
+    left: 37%;
+    padding: 10px;
+    width: 150px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #09357A;
+    border-color: #fff;
+    cursor: pointer;
+  }
+
+  #alltimefavorites {
+    overflow: hidden;
+    margin-bottom: 80px;
+  }
+
+  #alltimefavorites .favbottom {
+    gap: 15px;
+  }
+
+  #vickslegacy .vl {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #vickslegacy .vl .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  #vickslegacy .vl .right .learn {
+    margin-top: 0;
+  }
+
+  #footer {
+    padding: 20px;
+  }
+
+  .container {
+    margin: 15px;
+  }
+
+  .footer-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer-info ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px 10px;
+    gap: 9px;
+  }
+
+  .notice p {
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width:360px) and (max-width:479px) {
+  #spotlight {
+    background-image: url(../images/Mobile_Homepage_banner.jpg);
+    height: 650px;
+  }
+
+  #spotlight .header .learnmore .lm {
+    position: relative;
+    top: 680px;
+    left: 32%;
+    padding: 10px;
+    width: 150px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #09357A;
+    border-color: #fff;
+    cursor: pointer;
+  }
+
+  #alltimefavorites {
+    overflow: hidden;
+    margin-bottom: 80px;
+  }
+
+  #alltimefavorites .favbottom {
+    gap: 15px;
+  }
+
+  #vickslegacy .vl {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #vickslegacy .vl .left .history {
+    width: 340px;
+    height: 340px;
+  }
+
+  #vickslegacy .vl .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+  }
+
+  #vickslegacy .vl .right .learn {
+    margin-top: 0;
+  }
+
+  #footer {
+    padding: 20px;
+  }
+
+  .container {
+    margin: 15px;
+  }
+
+  .footer-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer-info ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px 10px;
+    gap: 9px;
+  }
+
+  .notice {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .notice .not {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+}
