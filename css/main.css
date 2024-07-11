@@ -907,6 +907,7 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
+    width: 480px;
   }
 
   #vickslegacy .vl .right .learn {
