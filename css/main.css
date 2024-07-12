@@ -26,6 +26,7 @@
   width: 100%;
   z-index: 1;
   padding: 8px;
+  padding-top: 10px;
 }
 
 #spotlight .header .navbar .menu-links {
@@ -622,7 +623,6 @@
     bottom: 42%;
     left: 65%;
     width: 190px;
-    position: fixed;
   }
 }
 
@@ -636,7 +636,6 @@
     left: 59%;
     padding: 10px;
     width: 180px;
-    position: fixed;
   }
 
   #alltimefavorites {
@@ -668,7 +667,6 @@
     padding: 7px;
     width: 120px;
     font-size: 12px;
-    position: fixed;
   }
 
   #alltimefavorites .favbottom .favbox {
@@ -704,7 +702,6 @@
     padding: 7px;
     width: 120px;
     font-size: 11px;
-    position: fixed;
   }
 
   #alltimefavorites {
