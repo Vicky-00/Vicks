@@ -25,7 +25,7 @@
   position: fixed;
   width: 100%;
   z-index: 1;
-  padding: 3px;
+  padding: 8px;
 }
 
 #spotlight .header .navbar .menu-links {
@@ -477,20 +477,26 @@
     overflow: hidden;
   }
 
+  .menu-header ul li {       
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  
   .menu-header ul li .option {
     color: #000080 !important;
-    margin-bottom: 12px;
-    display: block;
     text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
   }
 
   .menu-header ul li .option::after {
     content: "+";
-    font-size: 1.5rem;
-    position: relative;
-    float: right;
-    cursor: pointer;
-    margin-bottom: 12px;
+    gap: 15rem;
+    font-size: 1.2rem;
+    cursor: pointer;                
   }
 }
 
@@ -613,9 +619,10 @@
   }
 
   #spotlight .header .learnmore .lm {
-    bottom: 30%;
+    bottom: 42%;
     left: 65%;
     width: 190px;
+    position: fixed;
   }
 }
 
@@ -625,10 +632,11 @@
   }
 
   #spotlight .header .learnmore .lm {
-    bottom: 39%;
-    left: 58%;
+    bottom: 48%;
+    left: 59%;
     padding: 10px;
     width: 180px;
+    position: fixed;
   }
 
   #alltimefavorites {
@@ -655,11 +663,12 @@
   }
 
   #spotlight .header .learnmore .lm {
-    bottom: 54%;
-    left: 58%;
+    bottom: 60%;
+    left: 62%;
     padding: 7px;
     width: 120px;
     font-size: 12px;
+    position: fixed;
   }
 
   #alltimefavorites .favbottom .favbox {
@@ -690,11 +699,12 @@
   }
 
   #spotlight .header .learnmore .lm {
-    bottom: 58%;
-    left: 58%;
+    bottom: 62%;
+    left: 64%;
     padding: 7px;
     width: 120px;
     font-size: 11px;
+    position: fixed;
   }
 
   #alltimefavorites {
