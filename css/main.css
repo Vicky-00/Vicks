@@ -308,8 +308,12 @@
   font-weight: 100;
 }
 
-.footer-menu ul li {
+.footer-menu ul .fs {
   margin-bottom: 10px;
+  color:#d3dff2;
+  list-style: none;
+  text-decoration: none;
+  padding: 2px;
 }
 
 .social-media {
@@ -353,6 +357,12 @@
   align-items: center;
 }
 
+.notice .p-choice .p{
+  list-style: none;
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .notice .third-party {
   display: flex;
   margin-right: 15px;
@@ -383,12 +393,16 @@
   margin-right: 10px;
 }
 
-.footer-info .country span {
+.footer-info .country .us{
   font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  padding-left: 10px;
 }
 
-.footer-info .country i {
-  padding-left: 10px;
+.footer-info .country .arr {
+  padding-left: 7px;
+  color: #ffffff;
 }
 
 .footer-info ul {
@@ -398,11 +412,14 @@
   align-items: center;
 }
 
-.footer-info ul li {
+.footer-info ul .fi {
   font-family: "Sora";
   font-size: 14px;
   font-weight: 100;
   margin: 0 10px;
+  text-decoration: none;
+  list-style: none;
+  color: #ffffff;
 }
 
 /*////////////////////////////////////////////////////// Responsive Design////////////////////////////////////////////////////////////// */
@@ -609,6 +626,10 @@
 
   .country-privacy ul li {
     margin: 10px 15px;
+  }
+
+  .footer-info ul{
+    padding: 18px 5px;
   }
 }
 
@@ -873,7 +894,7 @@
     position: absolute;
     width: 180px;
     top: 102%;
-    left: 33%;
+    left: 30%;
   }
 
   #alltimefavorites {
@@ -948,7 +969,7 @@
     position: absolute;
     width: 180px;
     top: 102%;
-    left: 29%;
+    left: 28%;
   }
 
   #alltimefavorites {
